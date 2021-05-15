@@ -2,3 +2,19 @@ body{
   /* font-family: 'Bebas Neue', cursive; */
   font-family: 'Roboto', sans-serif;
 }
+
+header{
+  border: 1px solid red;
+  height: 715px;
+  background-color: #FFFBF0;
+}
+.logo{
+  width: 291px;
+  height: 39px;
+}
+.penguin-nav-link{
+  text-decoration: none;
+  color: #3C3C3C;
+  font-weight: 500;
+  margin-left: 57px;
+}
