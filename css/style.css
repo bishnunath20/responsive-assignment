@@ -1,11 +1,11 @@
 body{
   /* font-family: 'Bebas Neue', cursive; */
-  font-family: 'Roboto', sans-serif;
+  /* color: #FA804C; */
+  /* color: #76C27E; */
+  font-family: 'Roboto', sans-serif; 
 }
-
 header{
-  border: 1px solid red;
-  height: 715px;
+  /* border: 1px solid red; */
   background-color: #FFFBF0;
 }
 .logo{
@@ -17,4 +17,27 @@ header{
   color: #3C3C3C;
   font-weight: 500;
   margin-left: 57px;
+}
+.penguin-h1{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 80px;
+  line-height: 80px;
+  color: #363958;
+}
+.text-highlight{
+  color: #FA804C;
+}
+p{
+  color: #3E3E3E;
+  line-height: 26px;
+  margin: 24px 0;
+}
+.buy-now-btn{
+  background-image: linear-gradient(180deg, #76C27E 0%, #479E50 100%);
+  padding: 18px 33px;
+  border: none;
+  border-radius: 10px;
+  color: #FFFFFF;
+  font-weight: 500;
+  cursor: pointer;
 }
