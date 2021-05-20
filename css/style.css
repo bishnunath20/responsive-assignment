@@ -18,11 +18,31 @@ header{
   font-weight: 500;
   margin-left: 57px;
 }
-.penguin-h1{
+/* 
+  title
+*/
+.penguin-h1-title, .penguin-h2-title{
   font-family: 'Bebas Neue', cursive;
+  color: #363958;
+}
+.penguin-h1-title{
   font-size: 80px;
   line-height: 80px;
+}
+.penguin-h2-title{
+  font-size: 48px;
+  line-height: 48px;
+}
+.penguin-card-title{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
   color: #363958;
+}
+.price{
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
 }
 .text-highlight{
   color: #FA804C;
@@ -41,6 +61,25 @@ p{
   font-weight: 500;
   cursor: pointer;
 }
+/* spacing */
 .tab{
   padding-left: 8px;
+}
+.penguin-card{
+  /* width: 370px; */
+  /* height: 550px; */
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  border: 0;
+}
+.penguin-card-img-div{
+  width: 92%;
+  height: 100%;
+  background-color: #F1F1F1;
+  border-radius: 20px;
+  /* margin: 15px; */
+}
+.penguin-card-img-div img{
+  width: 70%;
+  height: 90%;
 }
