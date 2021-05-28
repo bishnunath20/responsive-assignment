@@ -65,6 +65,9 @@ p{
 .tab{
   padding-left: 8px;
 }
+/* 
+  card 
+*/
 .penguin-card{
   /* width: 370px; */
   /* height: 550px; */
@@ -72,14 +75,24 @@ p{
   border-radius: 20px;
   border: 0;
 }
-.penguin-card-img-div{
+.penguin-card-img{
   width: 92%;
   height: 100%;
   background-color: #F1F1F1;
   border-radius: 20px;
   /* margin: 15px; */
 }
-.penguin-card-img-div img{
+.penguin-card-img img{
   width: 70%;
   height: 90%;
+}
+.card-icon img{
+  width: 70px;
+  height: 76px;
+}
+
+@media (max-width: 767.98px) {
+  .subscribe-card-body {
+    text-align: center;
+  }
 }
